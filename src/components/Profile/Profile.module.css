@@ -1,0 +1,76 @@
+.card {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(210, 213, 216);
+    max-width: 400px;
+    margin: 0;
+    position: fixed;
+    top:1%;
+    left: 1%;
+}
+.divInformation {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+}
+.location {
+    font-size: 16px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0;
+}
+.logo {
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0;
+}
+.name {
+    font-size: 24px;
+    font-weight: 500;
+    /* justify-content: center;
+    align-items: center; */
+    color: black;
+    margin: 0;
+    
+}
+.tag {
+    font-size: 16px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0;
+}
+.list {
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid rgb(43, 39, 39);
+    background-color: rgb(77, 75, 75);
+    list-style-type: none;
+    max-width: 400px;
+    padding-left: 0;
+    min-height: 40px;
+    margin: 0;
+}
+.listItem {
+    border-right:1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.spanTextItem {
+ font-size: 18px;
+ font-weight: 500;
+ color: black;
+}
+.spanNombersItem {
+    font-size: 18px;
+ font-weight: 700;
+ color: black;
+}
