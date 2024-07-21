@@ -1,0 +1,12 @@
+.list {
+    
+    position: fixed;
+    top: 30%;
+    left: 1%;
+    list-style-type: none;
+}
+.listItem {
+display: flex;
+    gap: 40px;
+}
+

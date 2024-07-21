@@ -8,6 +8,7 @@
     position: fixed;
     top:1%;
     left: 1%;
+    margin-bottom: 50px;
 }
 .divInformation {
     display: flex;
