@@ -3,13 +3,20 @@ import cssFriendList from './FriendList.module.css'
 const FriendList = ({
   friends,
 }) => {
-    return (
-      <ul className={cssFriendList.list}>
-        
-        <li className={cssFriendList.listItem}>
-          {friends.map(friend => <FriendCard avatar={friend.avatar} nameFriend={friend.name} isOnline={friend.isOnline} key={friend.id} />)}
+  
+  return (
+    <ul className={cssFriendList.listItem}>
+      {friends.map((friend) => (
+        <li>
+          <FriendCard
+            avatar={friend.avatar}
+            nameFriend={friend.name}
+            isOnline={friend.isOnline}
+            key={friend.id}
+          />
         </li>
-      </ul>
-    );
+      ))}
+    </ul>
+  );
 }
 export default FriendList
