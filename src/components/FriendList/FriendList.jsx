@@ -7,12 +7,11 @@ const FriendList = ({
   return (
     <ul className={cssFriendList.listItem}>
       {friends.map((friend) => (
-        <li>
+        <li key={friend.id}>
           <FriendCard
             avatar={friend.avatar}
             nameFriend={friend.name}
             isOnline={friend.isOnline}
-            key={friend.id}
           />
         </li>
       ))}
